@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(city.jpg);    
+}
+
+.principal{
+    background-color: #071637;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 70px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#resultado{
+    margin-top: 15px;
+    color: #6b93ea;
+}
+
+#cepInput{
+    padding: 5px;
+    outline: none;
+    transition: box-shadow 0.3s ease; /* Adiciona uma transição suave */
+    border: none;
+    border-radius: 5px;
+}
+input:hover{
+    box-shadow: 0 0 10px #6b93ea;
+}
+
+#btn{
+    padding: 5px;
+    background-color: #0735EB;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: box-shadow 0.3s ease;
+}
+
+button:hover{
+    box-shadow: 0 0 10px #6b93ea;
+}
